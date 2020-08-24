@@ -62,6 +62,7 @@ h1 {
   top: 5.125rem;
   left: 0;
   width: 100%;
+  z-index: 22;
   display: none;
 }
 
