@@ -222,7 +222,7 @@ h1 {
 }
 .social-section {
   padding: 1em 0;
-  border-bottom: 1px solid var(--dark-grayish-violet);
+  border-bottom: 1px solid hsla(276, 4%, 51%, 0.44);
 }
 .social-section h1 {
   font-family: var(--headings-font-family);
@@ -259,6 +259,7 @@ h1 {
   color: var(--primary-dark-violet);
   text-transform: uppercase;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .attribution {
@@ -272,6 +273,7 @@ h1 {
 @media (min-width: 829px) {
   .footer {
     text-align: unset;
+    background-image: url("images/bg-pattern-footer-desktop.svg");
   }
   .social-section {
     display: flex;
@@ -310,6 +312,7 @@ h1 {
   }
   .info-section {
     text-align: unset;
+    margin-top:10em;
   }
   .info-section h1 {
     font-size: 3.5rem;
@@ -337,6 +340,7 @@ h1 {
     top: 30%;
     right: 5%;
     width: initial;
+    z-index: 1;
   }
   .line-light {
     width: 120px;
@@ -391,7 +395,8 @@ h1 {
     right:-150px;
   }
   .bg-pattern-intro-left{
-    bottom: -320px;
+    bottom: -310px;
     left:-50px;
+    top:unset
   }
 }
