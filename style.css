@@ -28,11 +28,11 @@ h1 {
 }
 
 .container {
-  padding: 5%;
+  padding: 5% 10%;
 }
 
 .header {
-  padding: 5%;
+  padding: 5% 10%;
 }
 
 .logo-header {
@@ -323,13 +323,14 @@ h1 {
   }
   .hero-section {
     background: var(--primary-dark-violet);
-    padding: 1em 5%;
+    padding: 1em 10%;
     position: relative;
   }
   .hero-description {
     text-align: unset;
     background: unset;
     width: 50%;
+    padding-left: 0;
   }
   .hero-description h1 {
     font-size: 4.5rem;
@@ -341,8 +342,8 @@ h1 {
   }
   .hero-image {
     position: absolute;
-    top: 30%;
-    right: 5%;
+    top: 6em;
+    right: 8em;
     width: initial;
     z-index: 1;
   }
