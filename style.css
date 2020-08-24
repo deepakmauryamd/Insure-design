@@ -100,6 +100,7 @@ h1 {
   color: var(--very-dark-voilet);
 }
 
+
 .hero-image {
   display: block;
   width: 100%;
@@ -314,6 +315,7 @@ h1 {
   .info-section {
     text-align: unset;
     margin-top:10em;
+    position: relative;
   }
   .info-section h1 {
     font-size: 3.5rem;
@@ -322,6 +324,7 @@ h1 {
   .hero-section {
     background: var(--primary-dark-violet);
     padding: 1em 5%;
+    position: relative;
   }
   .hero-description {
     text-align: unset;
@@ -392,12 +395,13 @@ h1 {
   }
 
   .bg-pattern-intro-right{
-    top:85px;
-    right:-150px;
+    top:0;
+    right:0;
   }
+
   .bg-pattern-intro-left{
-    bottom: -310px;
-    left:-50px;
+    bottom:-60%;
+    left:0;
     top:unset
   }
 }
