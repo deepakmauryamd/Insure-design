@@ -43,9 +43,9 @@ h1 {
 }
 
 .logo {
-  font-family: var(--headings-font-family);
+  font-family: var(--body-font-family);
   font-weight: var(--body-font-weight700);
-  color: var(--primary-dark-violet);
+  color: var(--very-dark-voilet);
   font-size: 2.2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -380,7 +380,10 @@ h1 {
     margin: 0 1.125em;
   }
   .nav-link {
-    color: var(--very-dark-voilet);
+    color: var(--dark-grayish-violet)
+  }
+  .nav-btn{
+    color:var(--very-dark-voilet)
   }
   .close {
     display: none;
